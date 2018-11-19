@@ -1,0 +1,361 @@
+.row2 {
+	margin: 0 auto;    
+	min-width:768px;
+	max-width:944px;
+}
+.rowMenu2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: black;	
+}
+.textoDepoimento {
+	text-align: center;
+	vertical-align: middle;	
+}
+.fundoTopo {
+	background-image: url(../img/fundoTopow.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+
+}
+.link, .link:hover, .link:link, .link:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin-left: 15px;
+}
+.linkContato, .linkContato:hover, .linkContato:link, .linkContato:active {
+	color: #000033;
+	text-decoration: underline;
+}
+.textoTopo {
+	opacity:0.8;
+	filter:alpha(opacity=70);
+	background-color: #000000;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	
+}
+.textoParceiros {
+	/* Safari */
+	-webkit-transform: rotate(-45deg);
+	/* Opera */
+	-o-transform: rotate(-45deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.bodyBackground { 
+	background-color: black;
+	background-image: url("img/fundoSMA.jpg");
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-attachment: fixed;
+}
+.tabelaCentro {
+	/* padding-top: 150px; padding-bottom: 15px; */
+}
+.tabelaCentro3 {
+	position: absolute; top: 10%; left: 10%;
+}
+.tabelaCentro2 {
+	margin: 0 auto;
+	padding: 16px 0;
+	width: 600px;
+}
+.texto {
+	font-size: 20px;color: #282828;font-family: Raleway,sans-serif; text-align: center; line-height: 1.3;
+}
+
+* {
+	box-sizing: border-box;
+}
+.header {
+	padding: 15px;
+}
+.menu {
+	width: 5%;
+	float: left;
+}
+.main {
+	float: left;
+}
+
+
+
+/* old abaixo */
+
+
+body {
+	padding: 0px 0px 0px;
+}
+
+.topo {
+	background:url(../img/topo.gif) repeat-x 0 0; height:100px;
+}
+.area {
+	margin: 0 auto;    
+	min-width:752px;
+	max-width:944px;
+}
+.topoTabela {
+	height: 55px;	
+}
+.logo {
+    background: url("../imagem/logocaixa.gif") no-repeat scroll 0 16px transparent;    
+    margin: 0 auto;    
+	width: 181px;
+}
+.seguro {
+    background: url("../img/ambienteSeguro.gif") no-repeat scroll 0 16px transparent;    
+    margin: 0 auto;    
+	width: 181px;
+}
+.identificacao {
+    background: url("../img/cantoIdLeft.png") no-repeat scroll 100% 0 transparent;
+    color: #005689;
+    display: block;
+    float: right;
+    font-size: 11px;
+    height: 61px;
+    margin-top: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.identificacao div {
+    background: url("../img/cantoIdDir.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 61px;
+    /*max-width: 530px;
+    min-width: 300px;*/
+    padding: 10px 8px 10px 15px;
+}
+
+.cantoId {
+	background: url("../img/cantoIdLeft.png") no-repeat scroll 100% 0 transparent;    
+    color: #FFFFFF;    
+    display: block;
+    float: left;    
+    height: 61px;
+    margin-right: 8px;
+    padding-left: 5px;    
+	margin-top: 10px;
+}
+.cantoId span {
+ 	background: url("../img/cantoIdDir.png") no-repeat scroll 0 0 transparent;   
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 61px;
+    line-height: 23px;
+    padding: 0 10px 0 5px;
+}
+
+.cantoId2 {
+    background: url("../img/cantoIdDir.png") no-repeat scroll 100% 0 transparent;
+	color: blue;
+    /*display: block;*/
+    /*float: right;*/
+    height: 61px;
+    /*margin-top: 10px;
+    padding-right: 10px;*/
+    /*position: relative;*/
+}
+.cantoId22 {
+    background: url("../img/cantoIdLeft.png") no-repeat scroll 0 0 transparent;
+    /*display: block;
+    float: left;*/
+    /*max-width: 530px;
+    min-width: 300px;*/
+    /*padding: 10px 8px 10px 15px;*/
+}
+
+.tituloSistema {
+	font-family: Arial;
+	font-weight:bold;
+	font-size: 20px;
+	color:#FFF;
+}
+.menu {
+	height: 28px;
+	background-image: url(../imagem/bkMenuH.gif);
+	background-repeat: repeat-x;
+	background-position: 0 bottom;		
+}
+.menu div {
+	/* Os dois comandos abaixo, juntos fazem ficar no meio, tanto no FF quanto no IE.*/
+	margin: 0 auto;
+    min-width:752px;
+	max-width:944px;	
+}
+.menu div a {
+	position: relative;	top: 3px;	
+	background: url("../imagem/dividoriaMenuH.gif") no-repeat scroll 0 100% transparent;
+    color: #0039BA;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 16px;
+    text-decoration: none;
+}
+.rodape {
+	background: none repeat scroll 0 0 #0039BA;		
+	width: 100%;	
+}
+.rodape div {
+	margin: 0 auto;
+    min-width:752px;
+	max-width:944px;
+}
+.rodape div table {
+	border: 1;
+	margin: 0 auto;    
+	height: 28px;
+	width: 100%;
+}
+.rodape table td{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:11px;
+	color:#FFF;
+}
+.estiloMigalhas {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;	
+	height: 28px;
+	position: relative;	top: 3px;
+	margin-bottom: 8px;
+}
+.estiloMigalhas div {
+	margin: 0 auto;
+    min-width:752px;
+	max-width:944px;	
+}
+.estiloMigalhas span {
+	font-weight: bold;
+}
+.estiloMigalhas div a {	
+    color: #0039BA; 
+    padding: 0 4px 0 4px;
+}
+.conteudo {
+	margin: 0 auto;
+    min-width:752px;
+	max-width:944px;
+	min-height:400px;
+}
+.divAlerta {
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	min-width:600px;
+	max-width:700px;
+	background-color:#E9EDF9;
+	font-family:Arial;
+	font-size:12px;
+	color: #0039ba;
+	border: thin solid #09F;
+	display:none;
+}
+.divErro {
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	min-width:600px;
+	max-width:700px;
+	background-color:#FDE1E1;
+	font-family:Arial;
+	font-size:12px;
+	color: #F00;
+	border: thin solid #F00;
+	display:none;
+}
+
+/*
+.botao { 
+	background:url(../imagem/btnSprite2.png) no-repeat scroll 0px -23px; 
+	color:fff; 
+	display:block; 
+	color:#FFF; 
+	font-size:12px;
+	font-weight:bold;		
+	text-decoration:none; 
+	height:23px;
+	padding-left:5px;
+	cursor:pointer;
+	margin-right:8px;
+}
+.botao span{ 
+	background:url(../imagem/btnSprite2.png) no-repeat 100% 0;
+	display:block; 
+	line-height:23px;
+	padding:0px 10px 0px 5px;
+	height:23px;
+	color:#FFF;
+	 
+}*/
+.botao, .botao:active, .botao:link, .botao:active {	
+    background:url(../imagem/btnSprite2.png) no-repeat scroll 0px -23px; /* img canto esquerdo */
+	height: 23px;text-decoration: none;cursor: pointer;color: #FFFFFF; font-size: 12px; font-weight: bold;
+    margin: 4px 0px 4px 8px; /*top, right, bottom, left;*/
+	padding-left: 5px;
+	display: block;
+    float: left;
+	color:#FFF;
+}
+.botao span {
+    background:url(../imagem/btnSprite2.png) no-repeat 100% 0;
+    line-height: 23px; padding: 0 10px 0 5px;
+	display: block;
+    /*float: left;   
+	margin: 0 auto;
+    min-width:752px;
+	max-width:944px;
+	*/
+}
+
+.grid, h3 {
+	margin-bottom:8px;
+}
+
+h4{font-size:12px; font-weight:bold; color:#002aa8; margin-top:8px;}
+
+.entrelinhamento { height:10px; }
+
+.grid2 {	
+}
+
+.grid2 thead {
+	border-style: none solid solid;
+	background-color: #F9F9F9;
+	background-image: url(../js/extjs/resources/images/default/grid/grid3-hrow.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+.grid2 th {
+	color: #333333;
+	font: 11px/15px arial,tahoma,helvetica,sans-serif;
+	border-left-color: #EEEEEE;
+    border-right-color: #D0D0D0;
+	vertical-align: middle;	
+	padding: 4px;
+}
+.grid2 td {
+	padding: 4px;
+}
+.grid2 {
+	border-style: none solid solid;	
+}
+.tdDados {
+	padding-top:2px;padding-bottom:2px;padding-left:2px;
+	border-bottom-style:solid;border-bottom-color:#D0D0D0;border-bottom-width:thin;}
+.tdDados div { padding: 0px 0px 0px 0px; }		
+
+.center-block { /* de bootstrap */
+  display: block;margin-left: auto;margin-right: auto;
+}
